@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "edfa9b0ae345130271d39d0086ecf5a6589e268a289d09f028ea6c18936e68ef"
+            "sha256": "a9e6e3b7f99cdb7c3c6f7410bdbc0a88883d050650454d2bf515e60fe4bb74a1"
         },
         "requires": {},
         "sources": [
@@ -97,6 +97,34 @@
         "coverage": {
             "hash": "sha256:2f5a8bf29bdc69976d0913745daab11f8265e46ec41153f5e1e1794088019dad",
             "version": "==4.3.4"
+        },
+        "mock": {
+            "hash": "sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1",
+            "version": "==2.0.0"
+        },
+        "pbr": {
+            "hash": "sha256:86f0e548dfbdc1ad12559725a66b5e1ca0b2e0744940da1ec89991fd11a2b32b",
+            "version": "==3.0.0"
+        },
+        "pluggy": {
+            "hash": "sha256:d2766caddfbbc8ef641d47da556d2ae3056860ce4d553aa04009e42b76a09951",
+            "version": "==0.4.0"
+        },
+        "py": {
+            "hash": "sha256:81b5e37db3cc1052de438375605fb5d3b3e97f950f415f9143f04697c684d7eb",
+            "version": "==1.4.33"
+        },
+        "six": {
+            "hash": "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
+            "version": "==1.10.0"
+        },
+        "tox": {
+            "hash": "sha256:0f37ea637ead4a5bbae91531b0bf8fd327c7152e20255e5960ee180598228d21",
+            "version": "==2.7.0"
+        },
+        "virtualenv": {
+            "hash": "sha256:39d88b533b422825d644087a21e78c45cf5af0ef7a99a1fc9fbb7b481e5c85b0",
+            "version": "==15.1.0"
         }
     }
 }
