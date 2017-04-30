@@ -10,7 +10,7 @@ python:
 
 
 install:
-  - "python install pipenv"
+  - "pip install pipenv"
   - "pipenv install --dev"
 
 script:
