@@ -15,4 +15,4 @@ install:
   - "pipenv install --dev"
 
 script:
-  - python -m unittest tests
+  - pipenv run python -m unittest tests
