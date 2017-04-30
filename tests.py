@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 import os
+import sys
 from unittest import TestCase
-from unittest.mock import patch
 
 from credentials_replacer.replacer import render_with_credentials
+
+if sys.version_info[0] == 3:
+    from unittest.mock import patch
+elif sys.version_info[0] == 2:
+    from mock import patch
 
 
 class TestReplacer(TestCase):
