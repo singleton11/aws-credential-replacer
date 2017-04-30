@@ -4,3 +4,4 @@ template.json
 MANIFEST
 __pycache__/
 *.pyc
+.coverage
