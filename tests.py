@@ -1,8 +1,9 @@
+#!/usr/bin/env python
 import os
 from unittest import TestCase
 from unittest.mock import patch
 
-from replacer import render_with_credentials
+from credentials_replacer.replacer import render_with_credentials
 
 
 class TestReplacer(TestCase):
@@ -28,7 +29,7 @@ class TestReplacer(TestCase):
         os.unlink(self.file_path)
         os.rmdir('tmp')
 
-    @patch('replacer.listSecrets', return_value=[
+    @patch('credentials_replacer.replacer.listSecrets', return_value=[
         {
             'name': 'TEST_CRED1',
         },
@@ -36,7 +37,8 @@ class TestReplacer(TestCase):
             'name': 'TEST_CRED2',
         },
     ])
-    @patch('replacer.getSecret', side_effect=['test_value1', 'test_value2'])
+    @patch('credentials_replacer.replacer.getSecret',
+           side_effect=['test_value1', 'test_value2'])
     def test_credentials_render(self, _1, _2):
         """Ensure that credentials obtained and template renders correctly"""
         self.assertEqual(render_with_credentials(self.file_path),

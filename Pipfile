@@ -9,3 +9,4 @@ Jinja2 = "*"
 
 [dev-packages]
 coverage = "*"
+tox = "*"

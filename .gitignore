@@ -1,2 +1,6 @@
 .idea/
 template.json
+.tox/
+MANIFEST
+__pycache__/
+*.pyc
