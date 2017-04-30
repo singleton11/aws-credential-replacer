@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a9e6e3b7f99cdb7c3c6f7410bdbc0a88883d050650454d2bf515e60fe4bb74a1"
+            "sha256": "62672be80b1fc17102024a371f0dc4b04d96b95baedbd396210bee4fa0171d0f"
         },
         "requires": {},
         "sources": [
@@ -94,13 +94,29 @@
         }
     },
     "develop": {
+        "appdirs": {
+            "hash": "sha256:d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e",
+            "version": "==1.4.3"
+        },
         "coverage": {
             "hash": "sha256:2f5a8bf29bdc69976d0913745daab11f8265e46ec41153f5e1e1794088019dad",
             "version": "==4.3.4"
         },
+        "coveralls": {
+            "hash": "sha256:ff403f4ddf6937327ef267735ac987a0f8fdd083d0f26f0002549ef68451e886",
+            "version": "==1.1"
+        },
+        "docopt": {
+            "hash": "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491",
+            "version": "==0.6.2"
+        },
         "mock": {
             "hash": "sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1",
             "version": "==2.0.0"
+        },
+        "packaging": {
+            "hash": "sha256:99276dc6e3a7851f32027a68f1095cd3f77c148091b092ea867a351811cfe388",
+            "version": "==16.8"
         },
         "pbr": {
             "hash": "sha256:86f0e548dfbdc1ad12559725a66b5e1ca0b2e0744940da1ec89991fd11a2b32b",
@@ -113,6 +129,26 @@
         "py": {
             "hash": "sha256:81b5e37db3cc1052de438375605fb5d3b3e97f950f415f9143f04697c684d7eb",
             "version": "==1.4.33"
+        },
+        "pyparsing": {
+            "hash": "sha256:fee43f17a9c4087e7ed1605bd6df994c6173c1e977d7ade7b651292fab2bd010",
+            "version": "==2.2.0"
+        },
+        "pytest": {
+            "hash": "sha256:66f332ae62593b874a648b10a8cb106bfdacd2c6288ed7dec3713c3a808a6017",
+            "version": "==3.0.7"
+        },
+        "pytest-cov": {
+            "hash": "sha256:10e37e876f49ddec80d6c83a54b657157f1387ebc0f7755285f8c156130014a1",
+            "version": "==2.4.0"
+        },
+        "requests": {
+            "hash": "sha256:1a720e8862a41aa22e339373b526f508ef0c8988baf48b84d3fc891a8e237efb",
+            "version": "==2.13.0"
+        },
+        "setuptools": {
+            "hash": "sha256:19d753940f8cdbee7548da318f8b56159aead279ef811a6efc8b8a33d89c86a4",
+            "version": "==35.0.2"
         },
         "six": {
             "hash": "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
