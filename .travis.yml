@@ -19,6 +19,6 @@ script:
 
 after_success:
   - |
-  if [[ $TRAVIS_PYTHON_VERSION == $NEWEST_PYTHON ]]; then
-    pipenv run coveralls
-  fi
+    if [[ $TRAVIS_PYTHON_VERSION == $NEWEST_PYTHON && $TRAVIS_OS_NAME == 'linux' ]]; then
+      pip install python-coveralls && coveralls
+    fi
