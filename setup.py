@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(
-    name='AWS Credentials replacer',
+    name='aws_credentials_replacer',
     version='0.1',
     description='AWS credentials replacer',
     author='Anton Prokhorov',
