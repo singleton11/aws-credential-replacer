@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "650fba3d1827c6ee5584ce856753076363fdcd9a0ce1fd0dfd93fea7e335f86f"
+            "sha256": "62672be80b1fc17102024a371f0dc4b04d96b95baedbd396210bee4fa0171d0f"
         },
         "requires": {},
         "sources": [
@@ -94,10 +94,6 @@
         }
     },
     "develop": {
-        "PyYAML": {
-            "hash": "sha256:592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab",
-            "version": "==3.12"
-        },
         "appdirs": {
             "hash": "sha256:d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e",
             "version": "==1.4.3"
@@ -145,10 +141,6 @@
         "pytest-cov": {
             "hash": "sha256:10e37e876f49ddec80d6c83a54b657157f1387ebc0f7755285f8c156130014a1",
             "version": "==2.4.0"
-        },
-        "python-coveralls": {
-            "hash": "sha256:1748272081e0fc21e2c20c12e5bd18cb13272db1b130758df0d473da0cb31087",
-            "version": "==2.9.1"
         },
         "requests": {
             "hash": "sha256:1a720e8862a41aa22e339373b526f508ef0c8988baf48b84d3fc891a8e237efb",
