@@ -16,10 +16,10 @@ class TestReplacer(TestCase):
 
     def setUp(self):
         """Make test file
-        
+
         Create file which has ``file_path`` path with content with jinja2 
         placeholders
-        
+
         """
         self.file_path = 'tmp/test.json'
 
