@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 required = [
     'credstash',
@@ -16,6 +16,5 @@ setup(
     author_email='betrayer11@gmail.com',
     url='https://github.com/singleton11/aws-credential-replacer',
     packages=['credentials_replacer'],
-    requires=required,
     install_requires=required,
 )
