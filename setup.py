@@ -17,4 +17,9 @@ setup(
     url='https://github.com/singleton11/aws-credential-replacer',
     packages=['credentials_replacer'],
     install_requires=required,
+    entry_points={
+        'console_scripts': [
+            'credentials_replacer = credentials_replacer.replacer:main',
+        ],
+    },
 )
