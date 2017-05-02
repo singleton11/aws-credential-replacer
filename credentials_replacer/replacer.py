@@ -18,7 +18,7 @@ def render_with_credentials(file):
 
     Returns:
         str: Rendered string
-    
+
     """
     env = Environment(loader=FileSystemLoader(os.path.dirname(file)))
     template = env.get_template(os.path.basename(file))
