@@ -10,7 +10,7 @@ required = [
 
 setup(
     name='aws_credentials_replacer',
-    version='0.1.3',
+    version='0.1.4',
     description='AWS credentials replacer',
     author='Anton Prokhorov',
     author_email='betrayer11@gmail.com',
